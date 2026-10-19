@@ -1,0 +1,99 @@
+# Python 字节码与构建产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 虚拟环境（保留 .python-version 和依赖锁文件）
+.venv/
+venv/
+env/
+ENV/
+
+# 编辑器本地配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 测试、静态检查与 Notebook 缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# 本地环境变量和服务凭据；允许提交无敏感信息的示例配置
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.kaggle/
+kaggle.json
+access_token
+
+# 数据集与下载缓存（任意层级）
+# 小型示例数据可放在 examples/ 或 fixtures/，不全局忽略 CSV / JSON / 图片
+data/
+datasets/
+.cache/
+.kagglehub/
+
+# 模型权重、checkpoint 与导出模型
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.onnx.data
+*.engine
+*.plan
+*.gguf
+pytorch_model*.bin
+
+# 训练输出与实验追踪
+outputs/
+runs/
+logs/
+lightning_logs/
+wandb/
+tensorboard/
+*.log
+events.out.tfevents.*
+
+# GPU / 算子编译缓存与本地编译产物（保留 CUDA / C++ 源码）
+.triton/
+torch_extensions/
+torchinductor_*/
+*.o
+*.obj
+*.so
+*.pyd
+*.dll
+*.lib
+*.a
+
+# Profiler 原始输出；整理后的 CSV 和图表仍可提交
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+*.pt.trace.json
+*.pt.trace.json.gz
+
+# 操作系统文件
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
