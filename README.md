@@ -1,14 +1,14 @@
 # AI Infra 学习记录
 
-记录我日常学习 AI Infrastructure 的代码。
+记录我日常学习 AI Infra 的代码。
 
 
 ## 仓库内容
 
-| 目录 | 内容 | 学习重点 |
-| --- | --- | --- |
-| [transformer/](./transformer/) | 小规模中英翻译练习 | 词表、位置编码、Padding / Causal Mask、训练循环与贪心解码 |
-| [cat&dog/](./cat%26dog/) | 基于预训练 ResNet18 的猫狗分类 | 数据划分、图像预处理、冻结参数、分类头训练与推理 |
+| 目录 | 内容 |
+| --- | --- |
+| [transformer/](./transformer/) | 小规模中英翻译练习 |
+| [cat&dog/](./cat%26dog/) | 基于预训练 ResNet18 的猫狗分类 |
 
 ## 目录结构
 
