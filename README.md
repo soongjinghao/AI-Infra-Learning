@@ -1,6 +1,6 @@
 # AI Infra 学习记录
 
-记录我日常学习 AI Infrastructure 的代码、实验和笔记。从 PyTorch 与模型训练基础开始，逐步探索分布式训练、推理优化和 GPU 编程，通过小实验理解模型如何训练、运行，以及如何提高效率。
+记录我日常学习 AI Infrastructure 的代码。
 
 
 ## 当前实验
