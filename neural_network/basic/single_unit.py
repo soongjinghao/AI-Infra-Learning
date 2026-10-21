@@ -196,3 +196,6 @@ def model(X_train, Y_train, X_test, Y_test, num_iterations=2000, learning_rate=0
          "num_iterations": num_iterations}
 
     return d
+
+if __name__=="__main__":
+    d = model(train_x, train_y, test_x, test_y, num_iterations=2000, learning_rate=0.005)
